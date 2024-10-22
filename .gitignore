@@ -1,0 +1,7 @@
+/target
+.env
+password.json
+
+/node_modules/
+/build/
+/dist/
