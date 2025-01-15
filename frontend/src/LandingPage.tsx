@@ -97,7 +97,7 @@ export default function LandingPage() {
                         </a>
                     </div>
                     <p className="text-center text-gray-400">
-                        © 2024 Passm CLI. All rights reserved.
+                        © 2025 Passm CLI. All rights reserved.
                     </p>
                 </div>
             </footer>
