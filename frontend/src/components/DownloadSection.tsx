@@ -7,7 +7,7 @@ export default function DownloadSection() {
 
     const handleDownload = async (platform: string) => {
         try {
-            const response = await fetch(`https://passm.s3.ap-south-1.amazonaws.com/passm-cli-${platform}.exe`)
+            const response = await fetch(`https://downloads.passm.slope726.in/passm-cli-${platform}.exe`)
             const blob = await response.blob()
             const url = window.URL.createObjectURL(blob)
             const a = document.createElement('a')
